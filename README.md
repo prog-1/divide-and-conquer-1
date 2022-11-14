@@ -3,8 +3,8 @@
 1. [+30%] A unimodal array is an array that has a sequence of monotonically increasing integers
    followed by a sequence of monotonically decreasing integers.
 
-   `unimodalMax(in []int)` is a function that finds the max element in a unimodal array
-   implemented as [follows](https://go.dev/play/p/buvERC5yZYG) (discussed in the lesson).
+   `unimodalMax(in []int) int` is a function that finds the max element in a unimodal array
+   implemented as [follows](https://go.dev/play/p/buvERC5yZYG) (discussed during the lesson).
 
    Write a recurrence equation for the algorithm that `unimodalMax` implements. Solve the equation
    and provide the time complexity for the algorithm expressed in $O(...)$ notation.
