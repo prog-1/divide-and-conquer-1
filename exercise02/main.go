@@ -30,13 +30,10 @@ func maxSum(in []int) int {
 
 func check(arr1, arr2, midArr []int) int {
 	if maxSum(arr1) > maxSum(arr2) && maxSum(arr1) > maxSum(midArr) {
-		fmt.Println("1")
 		return maxSum(arr1)
 	} else if maxSum(arr2) > maxSum(arr1) && maxSum(arr2) > maxSum(midArr) {
-		fmt.Println("2")
 		return maxSum(arr2)
 	} else {
-		fmt.Println("mid")
 		return maxSum(midArr)
 	}
 }
