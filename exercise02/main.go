@@ -1,7 +1,6 @@
 package main
 
 import (
-	"fmt"
 	"math"
 )
 
@@ -42,7 +41,6 @@ func unimodalMax(in []int) int {
 	arr1 := in[:len(in)/2]
 	arr2 := in[len(in)/2:]
 	midArr := append(arr1[len(arr1)/2:], arr2[:len(arr2)/2]...)
-	fmt.Println(arr1, midArr, arr2)
 	return check(arr1, arr2, midArr)
 }
 
