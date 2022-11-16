@@ -21,7 +21,7 @@
      
         * maximum subarray sum in the left half
         * maximum subarray sum in the right half
-        * maximum subarray sum that includes theright-most element in the left half and the left-most
+        * maximum subarray sum that includes the right-most element in the left half and the left-most
           element in the right half.
           
    Write a recurrence equation for the algorithm, solve the equation and provide the time complexity for
