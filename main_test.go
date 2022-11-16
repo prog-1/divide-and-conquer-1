@@ -2,7 +2,7 @@ package main
 
 import "testing"
 
-func TestlSum(t *testing.T) {
+func TestLSum(t *testing.T) {
 	for _, tc := range []struct {
 		name string
 		s    []int
