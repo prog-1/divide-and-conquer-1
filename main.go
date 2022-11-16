@@ -5,10 +5,11 @@ import (
 	"math"
 )
 
-//
-
 // Returns subarray with the largest element sum
 func mss(s []int) int {
+	if len(s) == 0 {
+		return 0
+	}
 	if len(s) == 1 {
 		return s[0]
 	}
